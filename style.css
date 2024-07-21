@@ -1,0 +1,134 @@
+/* header */
+header{
+  background: #E3DAD8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 100px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.header_logo{
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: -0.44023728370666504px;
+}
+.header_ul{
+  display: flex;
+  column-gap: 36px;
+}
+.header_a{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.44023728370666504px;
+}
+.header_button{
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: -0.44023728370666504px;
+  background-color: #524A44;
+  color: #fff;
+  border: none;
+  width: 100px;
+  height: 48px;
+  border-radius: 32px;
+  cursor: pointer;
+}
+/* cover */
+.cover_section{
+  height: 640px;
+  background-image: url('cover.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover_section_button{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.10000000149011612px;
+  width: 320px;
+  height: 80px;
+  border: 2px solid #F5F5F5;
+  background-color: #524A44;
+  color: #fff;
+  cursor: pointer;
+}
+/* section */
+.boxes{
+  padding: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.section_article{
+  background-color: #E3DAD8;
+  width: 356px;
+}
+.top_box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 161px;
+  margin-bottom: 16px;
+}
+.eclipse{
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+}
+.section_h2{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+/* footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 150px;
+  background-color: #000;
+}
+h3{
+  font-size: 24.65px;
+  font-weight: 900;
+  line-height: 26.41px;
+  letter-spacing: -0.44023728370666504px;
+  color: #fff;
+}
+.right_box{
+  width: 446px;
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  color: #FFF;
+  margin-bottom: 16px;
+}
+.footer_ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+footer a{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #fff;
+}
+
